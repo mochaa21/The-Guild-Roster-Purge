@@ -8,12 +8,20 @@ def print_gm(head):
     while current:
         print(f"[{current.data}]", end=" -> ")
         current = current.next
+    print("null")
 
 def delete_gm(head, target_gm):
     if not head:
+        return head
+    if head.data == target_gm:
         return head.next
+    current = head
+    while current.next:
+        if current.next.data == target_gm:
+            current.next = current.next.next
+        current = current.next
+    return head
 
-    if
 
 
 node1 = GuildMembers("Angelica ven Ashera")
@@ -26,4 +34,5 @@ node2.next = node3
 node3.next = node4
 
 print_gm(node1)
-delete_gm(node1, "Emilia")
+new_gm = delete_gm(node1, "Emilia")
+print_gm(new_gm)
