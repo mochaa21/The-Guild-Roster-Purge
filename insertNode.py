@@ -57,6 +57,6 @@ node6.next = node7
 print_gm(node1)
 
 newNode = GuildMembers("Beatrice")
-insert_gm(node1, newNode, 3)
-delete_gm(node1, "Emilia")
+node1 = insert_gm(node1, newNode, 3)
+node1 = delete_gm(node1, "Emilia")
 print_gm(node1)
