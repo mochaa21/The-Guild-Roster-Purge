@@ -25,7 +25,7 @@ def delete_gm(head, target_gm):
 
 
 node1 = GuildMembers("Angelica ven Ashera")
-node2 = GuildMembers("Veera Voile")
+node2 = GuildMembers("Voile de Lavilliant")
 node3 = GuildMembers("Emilia")
 node4 = GuildMembers("Sylvie Leywin")
 
