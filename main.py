@@ -19,6 +19,7 @@ def delete_gm(head, target_gm):
     while current.next:
         if current.next.data == target_gm:
             current.next = current.next.next
+            break
         current = current.next
     return head
 
