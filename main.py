@@ -23,6 +23,9 @@ def delete_gm(head, target_gm):
         current = current.next
     return head
 
+def insertNode(head, newNode, position):
+    pass
+
 
 
 node1 = GuildMembers("Angelica ven Ashera")
